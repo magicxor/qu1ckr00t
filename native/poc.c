@@ -46,11 +46,11 @@
 #define OFFSET__mm_struct__user_ns 0x2F8
 #define OFFSET__uts_namespace__name__version 0xC7
 // SYMBOL_* are relative to _head; data from /proc/kallsyms on userdebug
-#define SYMBOL__init_user_ns 0x202f2c8
-#define SYMBOL__init_task 0x20257d0
-#define SYMBOL__init_uts_ns 0x20255c0
+#define SYMBOL__init_user_ns 0x22A2EB8 // ffffff800a322eb8 D init_user_ns
+#define SYMBOL__init_task 0x2297380 // ffffff800a317380 D init_task
+#define SYMBOL__init_uts_ns 0x2297158 // ffffff800a317158 D init_uts_ns
 
-#define SYMBOL__selinux_enforcing 0x23ce4a8 // Grant: recovered using droidimg+miasm
+#define SYMBOL__selinux_enforcing 0x271EC38 // Grant: recovered using droidimg+miasm // ffffff800a79ec38 B selinux_enforcing
 
 void hexdump_memory(unsigned char *buf, size_t byte_count) {
   unsigned long byte_offset_start = 0;
