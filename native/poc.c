@@ -41,10 +41,10 @@
 // data from `pahole` on my own build with the same .config
 
 #define OFFSET__task_struct__thread_info__flags 0
-#define OFFSET__task_struct__mm 0x520
-#define OFFSET__task_struct__cred 0x790
-#define OFFSET__mm_struct__user_ns 0x300
-#define OFFSET__uts_namespace__name__version 0xc7
+#define OFFSET__task_struct__mm 0x5D8
+#define OFFSET__task_struct__cred 0x838
+#define OFFSET__mm_struct__user_ns 0x2F8
+#define OFFSET__uts_namespace__name__version 0xC7
 // SYMBOL_* are relative to _head; data from /proc/kallsyms on userdebug
 #define SYMBOL__init_user_ns 0x202f2c8
 #define SYMBOL__init_task 0x20257d0
